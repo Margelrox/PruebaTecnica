@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "moment-timezone": "^0.5.46",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "semver": "^7.6.3",
+    "sequelize": "^6.37.5",
+    "simple-update-notifier": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

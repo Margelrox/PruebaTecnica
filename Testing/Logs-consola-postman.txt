@@ -1,0 +1,1058 @@
+En el siguiente documento de texto se encontran los logs pertinentes a postman para verificar la funcionalidad de la api:
+
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64792
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "6b212d6a-cf6c-40e7-b809-5f2ff614866e",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "116"
+  },
+  "Request Body": "{\r\n  \"name\": \"Juan Pérez\",\r\n  \"email\": \"juan.perez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "153",
+    "etag": "W/\"99-AkS/+TH4bsaBfHCwGBiYXaaRKzA\"",
+    "date": "Wed, 04 Dec 2024 21:43:09 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"}"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64796
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "a3b398e5-1d6a-4f6c-bd14-5b84daa33e97",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "116"
+  },
+  "Request Body": "{\r\n  \"name\": \"Juan Pérez\",\r\n  \"email\": \"juan.perez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "155",
+    "etag": "W/\"9b-sfb0cT928uuKcPCJ23oi4jSZ9qk\"",
+    "date": "Wed, 04 Dec 2024 21:43:16 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"}]"
+}
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64902
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "9270d4ef-d023-4f68-ae5a-c48f7a5732b3",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "112"
+  },
+  "Request Body": "{\r\n  \"name\": \"Ana López\",\r\n  \"email\": \"ana.lopez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Admin\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "149",
+    "etag": "W/\"95-46fgQzTwUcUrYtpaVvxysWZeh2I\"",
+    "date": "Wed, 04 Dec 2024 21:45:35 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"}"
+}
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64902
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "38fe582d-8acc-4f18-b04c-3d6f2344572d",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "122"
+  },
+  "Request Body": "{\r\n  \"name\": \"Carlos García\",\r\n  \"email\": \"carlos.garcia@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "159",
+    "etag": "W/\"9f-rfTqC88zaIMEpHP4ymQqpCmWCsw\"",
+    "date": "Wed, 04 Dec 2024 21:45:40 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":3,\"name\":\"Carlos García\",\"email\":\"carlos.garcia@example.com\",\"password\":\"$2a$10$aQha3.5eZbb1glWcEf1T1.MelCxAjupi1L1UT5I3GBQGRXOY.Fdf6\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64902
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "26722d09-7986-4945-b4dd-f06d457f784b",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "127"
+  },
+  "Request Body": "{\r\n  \"name\": \"María Fernández\",\r\n  \"email\": \"maria.fernandez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "164",
+    "etag": "W/\"a4-/xD4jrlVkChVLVhzIncwOR6brDE\"",
+    "date": "Wed, 04 Dec 2024 21:45:46 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64911
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "e2ae7100-ac15-450a-af76-26b172a320d8",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "120"
+  },
+  "Request Body": "{\r\n  \"name\": \"Luis Martínez\",\r\n  \"email\": \"luis.martinez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Admin\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "157",
+    "etag": "W/\"9d-jcaHUeMoifH67LhgQPObj5CEtQk\"",
+    "date": "Wed, 04 Dec 2024 21:45:59 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Admin\"}"
+}
+POST http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64917
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "cf2959da-facc-4145-a5b4-fa043564bbdd",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "123"
+  },
+  "Request Body": "{\r\n  \"name\": \"Sofía Jiménez\",\r\n  \"email\": \"sofia.jimenez@example.com\",\r\n  \"password\": \"segura\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "160",
+    "etag": "W/\"a0-f13tGhwHkJ+wWZCW3lOdwdWQkvE\"",
+    "date": "Wed, 04 Dec 2024 21:46:09 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"}"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64921
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "11e3407f-0df8-47ba-ac4c-8e9a12217f03",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "2"
+  },
+  "Request Body": "\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-security-policy": "default-src 'none'",
+    "x-content-type-options": "nosniff",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "1111",
+    "date": "Wed, 04 Dec 2024 21:46:15 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>SyntaxError: Unexpected end of JSON input<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\body-parser\\lib\\types\\json.js:169:10)<br> &nbsp; &nbsp;at parse (C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\body-parser\\lib\\types\\json.js:86:15)<br> &nbsp; &nbsp;at C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\body-parser\\lib\\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:211:14)<br> &nbsp; &nbsp;at invokeCallback (C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\raw-body\\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\raw-body\\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\\Users\\juan\\Desktop\\prueba tecnica\\node_modules\\raw-body\\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:524:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1698:12)</pre>\n</body>\n</html>\n"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64965
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "9456e43c-aa1e-403b-ac2b-c99affb67213",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "2"
+  },
+  "Request Body": "\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "33",
+    "etag": "W/\"21-pkjj4dl4MCuVwtK3aMKh818Lqw8\"",
+    "date": "Wed, 04 Dec 2024 21:50:00 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"error\":\"Something went wrong!\"}"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65038
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "396f2e68-b01e-4a48-aadd-93494fdf66be",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "2"
+  },
+  "Request Body": "\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "33",
+    "etag": "W/\"21-pkjj4dl4MCuVwtK3aMKh818Lqw8\"",
+    "date": "Wed, 04 Dec 2024 21:52:27 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"error\":\"Something went wrong!\"}"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65074
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "56464969-0639-4575-b9d2-0c34b40e76a5",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "949",
+    "etag": "W/\"3b5-GUxHO2/0JBljiZtyf3nIxG54jgM\"",
+    "date": "Wed, 04 Dec 2024 21:59:00 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"},{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"},{\"id\":3,\"name\":\"Carlos García\",\"email\":\"carlos.garcia@example.com\",\"password\":\"$2a$10$aQha3.5eZbb1glWcEf1T1.MelCxAjupi1L1UT5I3GBQGRXOY.Fdf6\",\"role\":\"Usuario\"},{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"},{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Admin\"},{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"}]"
+}
+PUT http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65083
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "ed62d101-2004-4639-81cd-c5c59cde6138",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "56"
+  },
+  "Request Body": "{\r\n  \"name\": \"Luis Martínez\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-security-policy": "default-src 'none'",
+    "x-content-type-options": "nosniff",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "151",
+    "date": "Wed, 04 Dec 2024 22:00:16 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot PUT /api/usuarios</pre>\n</body>\n</html>\n"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65088
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "2d7f4d68-1377-4d95-803c-bb610f19c95c",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "949",
+    "etag": "W/\"3b5-GUxHO2/0JBljiZtyf3nIxG54jgM\"",
+    "date": "Wed, 04 Dec 2024 22:01:34 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"},{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"},{\"id\":3,\"name\":\"Carlos García\",\"email\":\"carlos.garcia@example.com\",\"password\":\"$2a$10$aQha3.5eZbb1glWcEf1T1.MelCxAjupi1L1UT5I3GBQGRXOY.Fdf6\",\"role\":\"Usuario\"},{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"},{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Admin\"},{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"}]"
+}
+PUT http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65114
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "0c650005-c87f-45b8-8fa0-b8c9521dca4e",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "56"
+  },
+  "Request Body": "{\r\n  \"name\": \"Luis Martínez\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-security-policy": "default-src 'none'",
+    "x-content-type-options": "nosniff",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "151",
+    "date": "Wed, 04 Dec 2024 22:05:53 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot PUT /api/usuarios</pre>\n</body>\n</html>\n"
+}
+GET http://localhost:3000/api/usuarios: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65118
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "314a3f98-da31-4016-a99c-85de73daa452",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "949",
+    "etag": "W/\"3b5-GUxHO2/0JBljiZtyf3nIxG54jgM\"",
+    "date": "Wed, 04 Dec 2024 22:06:07 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"},{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"},{\"id\":3,\"name\":\"Carlos García\",\"email\":\"carlos.garcia@example.com\",\"password\":\"$2a$10$aQha3.5eZbb1glWcEf1T1.MelCxAjupi1L1UT5I3GBQGRXOY.Fdf6\",\"role\":\"Usuario\"},{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"},{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Admin\"},{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"}]"
+}
+PUT http://localhost:3000/api/usuarios/5: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65130
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "e6f39636-b445-477a-af45-aa4737d6b7d0",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "56"
+  },
+  "Request Body": "{\r\n  \"name\": \"Luis Martínez\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "159",
+    "etag": "W/\"9f-t3VcTLy3DduX4NIdBW1peFqxjuU\"",
+    "date": "Wed, 04 Dec 2024 22:07:04 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Usuario\"}"
+}
+DELETE http://localhost:3000/api/usuarios/3: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65139
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "72b94b09-57f2-42b4-933c-434800c3390e",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "date": "Wed, 04 Dec 2024 22:07:17 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  }
+}
+GET http://localhost:3000/api/usuarios/3: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65139
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "17d61c8d-976c-46aa-a74c-7a0773997a1c",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "26",
+    "etag": "W/\"1a-hq/hT0ORGTkTfyRpVCZ/JB/r8Eg\"",
+    "date": "Wed, 04 Dec 2024 22:07:21 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"error\":\"User not found\"}"
+}
+GET http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65139
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "79b2dc0f-ae98-40bc-a67b-649aa7738bf5",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "791",
+    "etag": "W/\"317-6GyL5yfzmnz+mD4jmbZ/FXOhWcQ\"",
+    "date": "Wed, 04 Dec 2024 22:07:25 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"},{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"},{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"},{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"},{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Usuario\"}]"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65160
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "e7900bee-f6f3-42b2-ab87-53392ef403e1",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "128"
+  },
+  "Request Body": "{\r\n  \"name\": \"Gabriel Torres\",\r\n  \"email\": \"gabriel.torres@example.com\",\r\n  \"password\": \"password123\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "160",
+    "etag": "W/\"a0-5PnLxaGJEIUFD5Wr2DbDh/xlGbY\"",
+    "date": "Wed, 04 Dec 2024 22:11:11 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":7,\"name\":\"Gabriel Torres\",\"email\":\"gabriel.torres@example.com\",\"password\":\"$2a$10$5ovRw5MmKa5hJATZ..sVk.tWfttARGuPOcysZ.noQF.xC6ZlKUR12\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65184
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "2abea6d1-66f6-42a8-9325-2b15e8a26b1d",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "127"
+  },
+  "Request Body": "{\r\n  \"name\": \"Valeria Cruz\",\r\n  \"email\": \"valeria.cruz@example.com\",\r\n  \"password\": \"securePass2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "156",
+    "etag": "W/\"9c-fDFFpy81bIXps8j5FIKAg205yYY\"",
+    "date": "Wed, 04 Dec 2024 22:13:54 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":8,\"name\":\"Valeria Cruz\",\"email\":\"valeria.cruz@example.com\",\"password\":\"$2a$10$SSA5hkiqvctdHZLcwhnhy.svlkz.CiJGI9HFP4thRhAjxl2owJdhy\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 65200
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "b52151f3-991b-4d51-9dba-321f2a9d2add",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "131"
+  },
+  "Request Body": "{\r\n  \"name\": \"Diego Vargas\",\r\n  \"email\": \"diego.vargas@example.com\",\r\n  \"password\": \"strongPassword2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "156",
+    "etag": "W/\"9c-lmpDMfzO2fzun2YfBD3Fk3e9joU\"",
+    "date": "Wed, 04 Dec 2024 22:16:18 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":9,\"name\":\"Diego Vargas\",\"email\":\"diego.vargas@example.com\",\"password\":\"$2a$10$OCspODmwnnBUSixUO8VueelSaEovbpfnsvkgJky9ROof6DRNe499G\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 60973
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "cdf5f1e8-0d34-4b85-a6be-00476fc37e3f",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "129"
+  },
+  "Request Body": "{\r\n  \"name\": \"Camila Rojas\",\r\n  \"email\": \"camila.rojas@example.com\",\r\n  \"password\": \"safePassword2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "157",
+    "etag": "W/\"9d-zHX7pJhlC0cfvFNrtZa24VPeUWk\"",
+    "date": "Wed, 04 Dec 2024 22:18:52 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":10,\"name\":\"Camila Rojas\",\"email\":\"camila.rojas@example.com\",\"password\":\"$2a$10$eDUySj682hKRvAggXmWOCexTbXLP9.tTxBVRsxTZ//YPCG81OU/Ci\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61029
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "4b8eaf96-b309-403d-9cb7-79e069305f93",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "128"
+  },
+  "Request Body": "{\r\n  \"name\": \"Lucía Gómez\",\r\n  \"email\": \"lucia.gomez@example.com\",\r\n  \"password\": \"newPassword2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "157",
+    "etag": "W/\"9d-13vbZdAZtX/xNlb9hIMenKlO05Y\"",
+    "date": "Wed, 04 Dec 2024 22:20:41 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":11,\"name\":\"Lucía Gómez\",\"email\":\"lucia.gomez@example.com\",\"password\":\"$2a$10$MygL.OD8zdaK8th3X6SfXOWGtznXVDo7eBnoamy6dHu2AJYpJZDoC\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61048
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "13f22db7-0c9d-438d-af33-41d0b63b2c3a",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "128"
+  },
+  "Request Body": "{\r\n  \"name\": \"Lucía Gómez\",\r\n  \"email\": \"lucia.gomez@example.com\",\r\n  \"password\": \"newPassword2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "78",
+    "etag": "W/\"4e-ZPJjF5AXn5Gdy/LTB0cZbaC3Wuw\"",
+    "date": "Wed, 04 Dec 2024 22:20:52 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"error\":\"llave duplicada viola restricción de unicidad «Users_email_key»\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61054
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "0811b3d3-d625-4dcc-b7b3-680686a3cdb1",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "123"
+  },
+  "Request Body": "{\r\n  \"name\": \"Mateo Silva\",\r\n  \"email\": \"mateo.silva@example.com\",\r\n  \"password\": \"password2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "155",
+    "etag": "W/\"9b-L2nRylgVNnJDeB8nmdhmX0Fg030\"",
+    "date": "Wed, 04 Dec 2024 22:21:19 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":13,\"name\":\"Mateo Silva\",\"email\":\"mateo.silva@example.com\",\"password\":\"$2a$10$ou90Jv9z3TN1V5fuL7WDX.4TBvPrRGD5PLxXtr75V.kqztBdOshLm\",\"role\":\"Usuario\"}"
+}
+POST http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61087
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "d84353e7-7d60-4eae-9be3-aae1a2929048",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "126"
+  },
+  "Request Body": "{\r\n  \"name\": \"Paula Ramírez\",\r\n  \"email\": \"mateo.silva@example.com\",\r\n  \"password\": \"password2024\",\r\n  \"role\": \"Usuario\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "78",
+    "etag": "W/\"4e-ZPJjF5AXn5Gdy/LTB0cZbaC3Wuw\"",
+    "date": "Wed, 04 Dec 2024 22:22:58 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"error\":\"llave duplicada viola restricción de unicidad «Users_email_key»\"}"
+}
+GET http://localhost:3000/api/usuarios/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61092
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "3eff6d15-6403-4690-9d19-a83d25a2c3a6",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1738",
+    "etag": "W/\"6ca-YiVrU7Nqm/NCJR5sO/ENK5t9vEY\"",
+    "date": "Wed, 04 Dec 2024 22:23:25 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"},{\"id\":2,\"name\":\"Ana López\",\"email\":\"ana.lopez@example.com\",\"password\":\"$2a$10$6L994whq5RggiASxjwRpV.5m3JmA/cLbigcuru6CJdghpZS9A34EC\",\"role\":\"Admin\"},{\"id\":4,\"name\":\"María Fernández\",\"email\":\"maria.fernandez@example.com\",\"password\":\"$2a$10$CUSbwWtYZfK8eLTrOj1XzOp3uXRbQLi3VAv90PEhHf5nA8zJMjm5u\",\"role\":\"Usuario\"},{\"id\":6,\"name\":\"Sofía Jiménez\",\"email\":\"sofia.jimenez@example.com\",\"password\":\"$2a$10$k//bW2vYePSaq0.KFd04fenNnUXe6k9fgUveUmEpWUnabCXXJJdhO\",\"role\":\"Usuario\"},{\"id\":5,\"name\":\"Luis Martínez\",\"email\":\"luis.martinez@example.com\",\"password\":\"$2a$10$SfslGLOid7TISpw.xm68muKZFjnk7vx/4QwEdautizs.W3v3M2edm\",\"role\":\"Usuario\"},{\"id\":7,\"name\":\"Gabriel Torres\",\"email\":\"gabriel.torres@example.com\",\"password\":\"$2a$10$5ovRw5MmKa5hJATZ..sVk.tWfttARGuPOcysZ.noQF.xC6ZlKUR12\",\"role\":\"Usuario\"},{\"id\":8,\"name\":\"Valeria Cruz\",\"email\":\"valeria.cruz@example.com\",\"password\":\"$2a$10$SSA5hkiqvctdHZLcwhnhy.svlkz.CiJGI9HFP4thRhAjxl2owJdhy\",\"role\":\"Usuario\"},{\"id\":9,\"name\":\"Diego Vargas\",\"email\":\"diego.vargas@example.com\",\"password\":\"$2a$10$OCspODmwnnBUSixUO8VueelSaEovbpfnsvkgJky9ROof6DRNe499G\",\"role\":\"Usuario\"},{\"id\":10,\"name\":\"Camila Rojas\",\"email\":\"camila.rojas@example.com\",\"password\":\"$2a$10$eDUySj682hKRvAggXmWOCexTbXLP9.tTxBVRsxTZ//YPCG81OU/Ci\",\"role\":\"Usuario\"},{\"id\":11,\"name\":\"Lucía Gómez\",\"email\":\"lucia.gomez@example.com\",\"password\":\"$2a$10$MygL.OD8zdaK8th3X6SfXOWGtznXVDo7eBnoamy6dHu2AJYpJZDoC\",\"role\":\"Usuario\"},{\"id\":13,\"name\":\"Mateo Silva\",\"email\":\"mateo.silva@example.com\",\"password\":\"$2a$10$ou90Jv9z3TN1V5fuL7WDX.4TBvPrRGD5PLxXtr75V.kqztBdOshLm\",\"role\":\"Usuario\"}]"
+}
+GET http://localhost:3000/api/usuarios/1: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61101
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.43.0",
+    "accept": "*/*",
+    "postman-token": "6b41ea47-89ff-4ec4-a692-6e4ccd676041",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "153",
+    "etag": "W/\"99-AkS/+TH4bsaBfHCwGBiYXaaRKzA\"",
+    "date": "Wed, 04 Dec 2024 22:23:36 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"id\":1,\"name\":\"Juan Pérez\",\"email\":\"juan.perez@example.com\",\"password\":\"$2a$10$/Ql.Jz8UPgHDE7.4zSyTSO8y7lLZD4VHHo9yydJucSX3TCbhsaX1W\",\"role\":\"Usuario\"}"
+}
